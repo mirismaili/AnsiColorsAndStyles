@@ -1,22 +1,22 @@
 {
-  "name": "colored-cli",
-  "version": "1.0.1",
-  "description": "A simple utility to help changing colors and styles of CLI outputs (logs)",
-  "main": "dist/main.js",
+  "name": "ansi-colors-and-styles",
+  "version": "1.0.0",
+  "description": "A very simple utility to help changing colors and styles of CLI outputs (logs)",
+  "main": "dist/main.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "babel": "babel src/main.js --out-dir dist --source-maps"
+    "build": "webpack --mode=production"
   },
   "keywords": [
     "color",
     "style",
+    "ansi",
     "cli"
   ],
   "author": "S. M. Mir-Ismaili <s.m.mirismaili@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.3.4",
-    "@babel/preset-env": "^7.3.4"
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
   }
 }

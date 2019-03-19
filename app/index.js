@@ -3,6 +3,8 @@
  * Created on 1397/12/27 (2019/3/18).
  */
 
-import {RD} from "colored-cli";
+// import {RD} from "../library/dist/main.min";
+const a = require("../library/dist/main.min");
 
-console.log(`${RD} Hello`);
+for (const i in a)
+console.dir(`${i}: ${a[i]}`);
