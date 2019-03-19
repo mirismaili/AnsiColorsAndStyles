@@ -1,6 +1,6 @@
 {
   "name": "colored-cli",
-  "version": "0.0.8",
+  "version": "1.0.1",
   "description": "A simple utility to help changing colors and styles of CLI outputs (logs)",
   "main": "dist/main.js",
   "scripts": {
