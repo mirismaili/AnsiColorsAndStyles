@@ -1,4 +1,5 @@
-#/src/
+/src/
+/dist/
 /webpack.config.js
 /.babelrc
 /.eslintrc

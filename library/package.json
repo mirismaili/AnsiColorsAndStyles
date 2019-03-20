@@ -1,11 +1,10 @@
 {
   "name": "ansi-colors-and-styles",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A very simple utility to help changing colors and styles of CLI outputs (logs)",
-  "main": "dist/main.min.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode=production"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "color",
@@ -14,9 +13,5 @@
     "cli"
   ],
   "author": "S. M. Mir-Ismaili <s.m.mirismaili@gmail.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.3.0"
-  }
+  "license": "MIT"
 }

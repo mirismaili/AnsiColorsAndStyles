@@ -4,7 +4,7 @@
  */
 
 // import {RD} from "../library/dist/main.min";
-const a = require("../library/dist/main.min");
+const a = require("../library/index");
 
 for (const i in a)
 console.dir(`${i}: ${a[i]}`);
