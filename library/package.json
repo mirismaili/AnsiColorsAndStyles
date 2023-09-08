@@ -1,6 +1,6 @@
 {
   "name": "ansi-colors-and-styles",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "A very simple utility to help changing colors and styles of CLI outputs (logs)",
   "main": "index.js",
   "scripts": {
